@@ -1,0 +1,21 @@
+checkpoints/
+*.py[cod]
+*.pyc.*
+*$py.class
+.vscode/
+output/
+examples/*.pth
+*/__pycache__/
+#
+# Added by assistant: ignore virtualenvs, test outputs, models and OS files
+.venv/
+venv/
+.venv310/
+env/
+ENV/
+test_results*
+*.pth
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
